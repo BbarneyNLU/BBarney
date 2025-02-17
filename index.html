@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discover My Favorite Things: A Showcase of Hobbies, Adventures, and Inspirations</title>
+  <style>
+    body {
+      background-color: #FFA500; /* orange background */
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    header, footer {
+      text-align: center;
+      padding: 10px;
+    }
+    section {
+      margin: 20px 0;
+    }
+    h2 {
+      color: #333;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    blockquote {
+      font-style: italic;
+      color: #555;
+      margin: 10px 20px;
+      padding-left: 20px;
+      border-left: 3px solid #ccc;
+    }
+    footer {
+      border-top: 1px solid #ccc;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Personal Showcase!</h1>
+  </header>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Movies</li>
+      <li>Sports</li>
+      <li>Traveling</li>
+      <li>Cooking</li>
+      <li>Visiting Chicago Lake Front</li>
+    </ul>
+  </section>
+
+  <!-- Countries to Visit Section -->
+  <section id="countries">
+    <h2>Countries I Plan to Visit</h2>
+    <ul>
+      <li>Jamaica</li>
+      <li>Japan</li>
+      <li>Spain</li>
+      <li>Italy</li>
+    </ul>
+  </section>
+
+  <!-- Sources of Inspiration Section -->
+  <section id="inspiration">
+    <h2>Sources of Inspiration</h2>
+    <ul>
+      <li>Religion</li>
+      <li>Cook Books</li>
+      <li>Art and Music</li>
+    </ul>
+  </section>
+
+  <!-- Favorite Dishes Section -->
+  <section id="favorite-dishes">
+    <h2>My Favorite Dishes</h2>
+    <ul>
+      <li>Salisbury steak</li>
+      <li>Chicken and Dumplings</li>
+    </ul>
+  </section>
+
+  <!-- Positive Quote Section -->
+  <section id="quote">
+    <h2>Positive Quote</h2>
+    <blockquote>"There are two rules in life: Number 1, never quit! Number 2, never forget rule number one." - Duke Ellington</blockquote>
+  </section>
+
+  <!-- Favorite Image Section -->
+  <section id="favorite-image">
+    <h2>My Favorite Image</h2>
+    <!-- Replace the src URL with your favorite image URL -->
+    <img src="lake-michigan.jpg" alt="My Favorite Test">
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Brian C. Barney - <span id="currentDate"></span></p>
+  </footer>
+
+  <!-- JavaScript to Insert Today's Date -->
+  <script>
+    const today = new Date();
+    document.getElementById('currentDate').textContent = today.toLocaleDateString();
+  </script>
+</body>
+</html>
